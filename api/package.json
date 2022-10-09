@@ -1,0 +1,29 @@
+{
+  "name": "poke-api",
+  "version": "1.0.0",
+  "description": "poke-api",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js --experimental-modules"
+  },
+  "author": "dayuss",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "axios-cache-adapter": "^2.7.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "node-fetch": "^2.6.7",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "pokedex-promise-v2": "^4.0.0",
+    "save": "^2.9.0",
+    "sequelize": "^6.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
